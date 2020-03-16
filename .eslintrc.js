@@ -10,12 +10,13 @@ module.exports = {
   },
   extends: 'standard',
   globals: {
-    __static: true
+    __static: true,
   },
   plugins: [
     'html'
   ],
   'rules': {
+    "indent": ["error", 2],
     // allow paren-less arrow functions
     'arrow-parens': 0,
     // allow async-await
