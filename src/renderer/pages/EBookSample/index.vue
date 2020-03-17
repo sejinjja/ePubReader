@@ -22,7 +22,7 @@
     },
     methods: {
       async parseEpub () {
-        const a = await extractor(path.join(__static, 'GeographyofBliss_oneChapter.epub'), {dir: __static + '/test/GeographyofBliss_oneChapter'})
+        const a = await extractor(path.join(__static, '/test/GeographyofBliss_oneChapter.epub'), {dir: __static + '/test/GeographyofBliss_oneChapter'})
         console.log('a', a)
       }
     },
